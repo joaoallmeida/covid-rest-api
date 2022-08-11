@@ -1,0 +1,19 @@
+{
+  "name": "democovid",
+  "version": "1.0.0",
+  "description": "Getting near real-time data from covid around the world",
+  "main": "index.js",
+  "scripts": {
+    "startServer": "nodemon index.js"
+  },
+  "author": "Joao Soares",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+}
